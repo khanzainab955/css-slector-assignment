@@ -1,0 +1,13 @@
+/* Task one - use descendant combinator selector to remove list styles bullet points */
+ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+/* tas two - use chlid combinator to display the menue list item inline*/
+ul>li{
+    display: inline;
+}
+/*Task three - use adjacent sibling combinator selector to apply some margine between the menu list item*/
+li+li {
+    margin: 10px;
+}
